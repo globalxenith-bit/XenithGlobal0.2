@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Xenith Global — Empowering Growth Through Technology, Strategy & Data Intelligence</title>
+  <meta name="description" content="Xenith Global helps companies accelerate performance, expand into new markets, and achieve their business targets through a blend of strategy, execution, and innovation." />
+  <link rel="icon" href="xenith-logo.png" />
+  <style>
+    :root{
+      --navy:#0d1321;--cyan:#00bcd4;--blue:#1a73e8;--gray:#e0e6ee;--white:#fff;--max:1200px;
+      --ff-head:Poppins,Segoe UI,Helvetica,Arial,sans-serif;
+      --ff-body:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:var(--ff-body);background:var(--navy);color:var(--gray);line-height:1.6}
+    header{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(13,19,33,0.85);backdrop-filter:blur(6px)}
+    .nav{max-width:var(--max);margin:auto;display:flex;justify-content:space-between;align-items:center;padding:16px 24px}
+    .brand{display:flex;align-items:center;gap:10px;color:var(--cyan);font-weight:700;font-family:var(--ff-head)}
+    .brand img{height:34px}
+    nav a{color:var(--gray);text-decoration:none;margin-left:20px;font-weight:600}
+    nav a:hover{color:var(--cyan)}
+    .cta-btn{background:linear-gradient(90deg,var(--cyan),var(--blue));padding:8px 16px;border-radius:8px;color:var(--white);font-weight:600}
+    main{padding-top:100px}
+    section{padding:80px 24px;max-width:var(--max);margin:auto}
+    h1,h2,h3{font-family:var(--ff-head);color:var(--white)}
+    h1{font-size:2.4rem;margin-bottom:12px}
+    h2{font-size:1.8rem;margin-bottom:16px;text-align:center}
+    .subhead{text-align:center;max-width:800px;margin:0 auto 40px;color:#b0bbc9}
+    .hero{background:url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;position:relative;color:#fff;text-align:center;padding:120px 20px}
+    .hero::before{content:'';position:absolute;inset:0;background:rgba(13,19,33,0.7)}
+    .hero-content{position:relative;z-index:2;max-width:900px;margin:auto}
+    .hero h1{font-size:2.6rem}
+    .hero p{font-size:1.1rem;color:#dfe6f2;margin:16px auto 32px}
+    .btn{display:inline-block;padding:12px 22px;border-radius:10px;font-weight:600;text-decoration:none}
+    .btn-primary{background:linear-gradient(90deg,var(--cyan),var(--blue));color:#fff}
+    .btn-secondary{border:1px solid var(--cyan);color:var(--cyan)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+    .card{background:rgba(255,255,255,0.04);border-radius:12px;padding:24px;transition:all .3s ease}
+    .card:hover{transform:translateY(-6px);background:rgba(255,255,255,0.08)}
+    .industries .tile{text-align:center;padding:24px;background:rgba(255,255,255,0.04);border-radius:10px}
+    footer{padding:40px 24px;text-align:center;border-top:1px solid rgba(255,255,255,0.05);color:#99a6b6}
+    footer a{color:var(--cyan);text-decoration:none;margin:0 6px}
+    @media(max-width:768px){
+      .hero h1{font-size:2rem}
+      .hero{padding:100px 16px}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand"><img src="xenith-logo.png" alt="Xenith logo">XENITH GLOBAL</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="case-studies.html">Case Studies</a>
+      <a href="industries.html">Industries</a>
+      <a href="contact.html" class="cta-btn">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Empowering Business Growth Through Technology, Trade & Data Intelligence</h1>
+    <p>Xenith Global helps companies accelerate performance, expand into new markets, and achieve their business targets through a powerful blend of strategy, execution, and innovation.</p>
+    <a href="contact.html" class="btn btn-primary">🚀 Let’s Build Growth Together</a>
+    <a href="services.html" class="btn btn-secondary" style="margin-left:10px">Explore Our Services</a>
+  </div>
+</section>
+
+<!-- ABOUT PREVIEW -->
+<section>
+  <h2>We Don’t Just Consult — We Execute Growth.</h2>
+  <p class="subhead">At Xenith Global, we combine real-world experience in global trade, finance, and software to deliver measurable business outcomes. Whether it’s driving sales for a financial firm, optimizing export operations, or building a smart ERP system — we act as your extended growth partner, managing strategy, operations, and data under one roof.</p>
+  <div style="text-align:center;margin-top:20px"><a href="services.html" class="btn btn-secondary">Learn More About Us →</a></div>
+</section>
+
+<!-- SERVICES -->
+<section>
+  <h2>Our Expertise — Built for Business Growth</h2>
+  <p class="subhead">From strategy and software to sales and execution, we deliver solutions that help businesses scale efficiently and intelligently.</p>
+  <div class="grid">
+    <div class="card"><h3>Business Growth Handling</h3><p>We manage your outreach, client acquisition, and sales growth as a third-party business partner.</p><a href="services.html" class="btn btn-secondary">Learn More</a></div>
+    <div class="card"><h3>ERP & Automation</h3><p>Streamline workflows, reduce errors, and increase efficiency with custom ERP and automation tools.</p><a href="services.html" class="btn btn-secondary">Learn More</a></div>
+    <div class="card"><h3>Financial Strategy & Analytics</h3><p>Transform financial data into strategic business insights for smarter decision-making.</p><a href="services.html" class="btn btn-secondary">Learn More</a></div>
+    <div class="card"><h3>Data Intelligence & Insights</h3><p>Turn raw data into powerful visual dashboards that drive measurable growth.</p><a href="services.html" class="btn btn-secondary">Learn More</a></div>
+    <div class="card"><h3>Import-Export Consulting</h3><p>Expand globally with trade strategy, buyer verification, and export process optimization.</p><a href="services.html" class="btn btn-secondary">Learn More</a></div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="industries">
+  <h2>Diverse Expertise. Singular Focus — Your Growth.</h2>
+  <p class="subhead">We serve organizations across industries that demand performance, precision, and innovation.</p>
+  <div class="grid">
+    <div class="tile">💰 <strong>Finance & Fintech</strong></div>
+    <div class="tile">🌍 <strong>Import-Export & Manufacturing</strong></div>
+    <div class="tile">🖥️ <strong>Technology & SaaS</strong></div>
+    <div class="tile">🏬 <strong>Retail & E-commerce</strong></div>
+    <div class="tile">🧾 <strong>Consulting & Services</strong></div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section>
+  <h2>Growth That Speaks for Itself</h2>
+  <p class="subhead">Every project we deliver is backed by strategy, data, and execution excellence.</p>
+  <div class="grid">
+    <div class="card"><h3>📈 125% Sales Growth</h3><p>Helped a financial services company achieve 125% sales growth in 8 months with a data-driven pipeline.</p></div>
+    <div class="card"><h3>🌐 6-Country Expansion</h3><p>Enabled three export firms to discover verified buyers across six countries, reducing trade cycle time by 40%.</p></div>
+    <div class="card"><h3>⚙️ 60% Efficiency Gain</h3><p>Implemented ERP systems for manufacturers, improving operational efficiency by 60%.</p></div>
+  </div>
+  <div style="text-align:center;margin-top:20px"><a href="case-studies.html" class="btn btn-primary">View All Success Stories →</a></div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section>
+  <h2>Why Leading Businesses Choose Xenith Global</h2>
+  <div class="grid" style="margin-top:20px">
+    <div class="card"><h3>💡 Cross-Domain Expertise</h3><p>From finance to trade to tech, we understand every layer of business.</p></div>
+    <div class="card"><h3>📊 Data-Driven Approach</h3><p>Every decision and strategy is powered by analytics.</p></div>
+    <div class="card"><h3>🤝 End-to-End Execution</h3><p>We don’t just plan; we deliver measurable growth.</p></div>
+    <div class="card"><h3>🌎 Global Network</h3><p>Trusted partnerships across industries and geographies.</p></div>
+    <div class="card"><h3>🔄 Scalable Solutions</h3><p>Flexible engagement models that grow with your business.</p></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="text-align:center">
+  <h2>“Partner with Xenith Global — Where Strategy Meets Execution.”</h2>
+  <p class="subhead">Ready to accelerate your business performance? Let’s talk about how we can make growth happen for you.</p>
+  <a href="contact.html" class="btn btn-primary">Book a Free Consultation</a>
+</section>
+
+<footer>
+  <div>© 2025 Xenith Global — Empowering Growth Through Technology, Strategy & Data Intelligence.</div>
+  <div style="margin-top:8px">
+    <a href="about.html">About</a>|
+    <a href="services.html">Services</a>|
+    <a href="case-studies.html">Case Studies</a>|
+    <a href="contact.html">Contact</a>|
+    <a href="#">Privacy Policy</a>
+  </div>
+  <div style="margin-top:10px">🔗 <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | ✉️ info@xenithglobal.com | 📞 +91-XXXXXXXXXX</div>
+</footer>
+
+</body>
+</html>
